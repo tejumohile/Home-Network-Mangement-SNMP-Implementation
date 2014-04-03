@@ -1,0 +1,112 @@
+/* 
+    Document   : mtheme
+    Created on : Jul 27, 2013, 4:33:39 PM
+    Author     : TAM
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+div.login_table {
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 150px;
+    width: 280px;
+
+}
+
+.login_table:table {
+    height: 400px;
+    width: 300px;
+    background-color: #e0ffff;
+}
+.table4 {
+margin:0px;padding:0px;
+width:100%;	box-shadow: 10px 10px 5px #888888;
+border:1px solid #000000;
+
+-moz-border-radius-bottomleft:0px;
+-webkit-border-bottom-left-radius:0px;
+border-bottom-left-radius:0px;
+
+-moz-border-radius-bottomright:0px;
+-webkit-border-bottom-right-radius:0px;
+border-bottom-right-radius:0px;
+
+-moz-border-radius-topright:0px;
+-webkit-border-top-right-radius:0px;
+border-top-right-radius:0px;
+
+-moz-border-radius-topleft:0px;
+-webkit-border-top-left-radius:0px;
+border-top-left-radius:0px;
+}.table4 table{
+width:100%;
+height:100%;
+margin:0px;padding:0px;
+}.table4 tr:last-child td:last-child {
+-moz-border-radius-bottomright:0px;
+-webkit-border-bottom-right-radius:0px;
+border-bottom-right-radius:0px;
+}
+.table4 table tr:first-child td:first-child {
+-moz-border-radius-topleft:0px;
+-webkit-border-top-left-radius:0px;
+border-top-left-radius:0px;
+}
+.table4 table tr:first-child td:last-child {
+-moz-border-radius-topright:0px;
+-webkit-border-top-right-radius:0px;
+border-top-right-radius:0px;
+}.table4 tr:last-child td:first-child{
+-moz-border-radius-bottomleft:0px;
+-webkit-border-bottom-left-radius:0px;
+border-bottom-left-radius:0px;
+}.table4 tr:hover td{
+
+}.table4 tr:nth-child(odd){ background-color:#e5e5e5; }
+.table4 tr:nth-child(even)    { background-color:#ffffff; }
+.table4 td{
+vertical-align:middle;
+
+
+border:1px solid #000000;
+border-width:0px 1px 1px 0px;
+text-align:left;
+padding:7px;
+font-size:10px;
+font-family:arial;
+font-weight:normal;
+color:#000000;
+}.table4 tr:last-child td{
+border-width:0px 1px 0px 0px;
+}.table4 tr td:last-child{
+border-width:0px 0px 1px 0px;
+}.table4 tr:last-child td:last-child{
+border-width:0px 0px 0px 0px;
+}
+.table4 tr:first-child td{
+	background-color:#4c4c4c;
+border:0px solid #000000;
+text-align:center;
+border-width:0px 0px 1px 1px;
+font-size:14px;
+font-family:arial;
+font-weight:bold;
+color:#ffffff;
+}
+.table4 tr:first-child:hover td{
+background-color:#4c4c4c;
+}
+.table4 tr:first-child td:first-child{
+border-width:0px 0px 1px 0px;
+}
+.table4 tr:first-child td:last-child{
+border-width:0px 0px 1px 1px;
+}

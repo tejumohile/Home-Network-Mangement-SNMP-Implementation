@@ -1,0 +1,4 @@
+PWR 1
+TEMP 75
+FAN 0
+SWING 0
